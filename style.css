@@ -162,6 +162,24 @@ footer {
   background: #020617;
 }
 
+/* SOCIAL ICONS */
+.socials {
+  margin-top: 24px;
+  display: flex;
+  gap: 22px;
+}
+
+.socials a {
+  font-size: 1.5rem;
+  color: var(--muted);
+  transition: all 0.25s ease;
+}
+
+.socials a:hover {
+  color: var(--primary);
+  transform: translateY(-4px) scale(1.1);
+}
+
 /* RESPONSIVE */
 @media (max-width: 600px) {
   section {
